@@ -20,3 +20,11 @@ This started as a learning project to understand how WebSockets work in PHP. Ins
 ---
 
 ## Project structure
+Project/
+├── bin/
+│   └── chat-server.php   ← run this to start the server
+├── src/
+│   └── Chat.php          ← handles connections and messages
+├── vendor/               ← Ratchet and its dependencies
+├── composer.json
+└── index.php             ← the chat UI in your browser
